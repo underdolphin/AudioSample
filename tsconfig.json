@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "target": "es2015",
+        "removeComments": true,
+        "module": "commonjs"
+    },
+    "exclude": [
+        "build",
+        "node_modules",
+        "typings"
+    ]
+}
