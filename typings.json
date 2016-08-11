@@ -3,10 +3,13 @@
   "dependencies": {},
   "globalDependencies": {
     "browser-sync": "registry:dt/browser-sync#0.0.0+20160524142403",
+    "chokidar": "registry:dt/chokidar#1.4.3+20160316155526",
+    "express": "registry:dt/express#4.0.0+20160708185218",
     "gulp": "registry:dt/gulp#3.8.0+20160724062653",
     "gulp-nodemon": "registry:dt/gulp-nodemon#0.0.0+20160316155526",
     "gulp-plumber": "registry:dt/gulp-plumber#0.0.0+20160316155526",
     "gulp-typescript": "registry:dt/gulp-typescript#0.0.0+20160317120654",
+    "micromatch": "registry:dt/micromatch#2.3.7+20160123140905",
     "node": "registry:dt/node#6.0.0+20160807145350",
     "orchestrator": "registry:dt/orchestrator#0.0.0+20160316155526",
     "q": "registry:dt/q#0.0.0+20160613154756",
