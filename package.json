@@ -18,5 +18,16 @@
   "bugs": {
     "url": "https://github.com/underdolphin/AudioSample/issues"
   },
-  "homepage": "https://github.com/underdolphin/AudioSample#readme"
+  "homepage": "https://github.com/underdolphin/AudioSample#readme",
+  "devDependencies": {
+    "browser-sync": "^2.14.0",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.1.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-prettydiff": "^1.0.1",
+    "gulp-typescript": "^2.13.6"
+  },
+  "dependencies": {
+    "systemjs": "^0.19.36"
+  }
 }
