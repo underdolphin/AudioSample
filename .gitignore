@@ -36,6 +36,9 @@ jspm_packages
 # Typings directory
 typings
 
+# Build directory
+build
+
 # =========================
 # Operating System Files
 # =========================
