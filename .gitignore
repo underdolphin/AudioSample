@@ -37,7 +37,8 @@ jspm_packages
 typings
 
 # Build directory
-build
+build/server/**
+build/client/**
 
 # =========================
 # Operating System Files
