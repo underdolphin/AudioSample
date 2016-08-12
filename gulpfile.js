@@ -52,9 +52,8 @@ gulp.task('start', ['tsCompile', 'serverCompile', 'browser-sync','nodemon'], () 
 gulp.task('browser-sync', ['nodemon'], () => {
     browserSync.init({
         proxy: "localhost:8888",
-        port: 3000,
-        serveStatic: ['build/static'],
-        open:false
+        open:false,
+        files: ["build/client/**/*.*","build/static/**/*.*"]
     })
 });
 
@@ -62,7 +61,7 @@ gulp.task('nodemon', () => {
     nodemon({
         script: 'build/server/index.js',
         watch: 'build/server/**/*.*',
-        ignore: ['build/client/**/*']
+        ignore: ['build/client/**/*','node_modules']
     }).on('start', () => { }).on('restart', () => {
         setTimeout(function () {
             browserSync.reload();
