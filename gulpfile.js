@@ -44,7 +44,7 @@ gulp.task('tsCompile', () => {
         .pipe(gulp.dest('build/client'));
 });
 
-gulp.task('start', ['tsCompile', 'serverCompile', 'browser-sync','nodemon'], () => {
+gulp.task('start', ['tsCompile', 'serverCompile', 'browser-sync'], () => {
     gulp.watch('src/server/**/*.ts', ['serverCompile']);
     gulp.watch('src/client/**/*.ts', ['tsCompile']);
 });
